@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Translator</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center mt-5">Speech to Text</h1>
+        
+            <div class="form-group">
+                <textarea name="" id="textbox" rows="6" class="form-control"></textarea>
+            </div>
+            <div class="form-group">
+                <button id="start-btn" class="btn btn-primary btn-block">Start Recording</button>
+                <button id="stop-btn" class="btn btn-block btn-danger">Stop Recording</button>
+            </div>
+            <p id="instructions">Press the Button and Start Speaking</p>
+    </div>
+    <div class="container" id="image-container">
+
+    </div>
+
+    <footer class="footer">
+        <div style="padding-top: 40px;" class="contaner">
+        <p style="text-align: center;">Developed by <a href="https://ayushkishor.github.io/me/">Ayush Kishor</a></p>
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
